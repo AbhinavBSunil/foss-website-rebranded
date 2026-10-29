@@ -88,6 +88,7 @@ export default function Navbar() {
               <a href="/blogs" className="text-lg hover:text-gray-300 transition-colors">Blog</a>
               <a href="/team" className="text-lg hover:text-gray-300 transition-colors">Team</a>
               <a href="/contact" className="text-lg hover:text-gray-300 transition-colors">Contact</a>
+              <a href="/gallery" className="text-lg hover:text-gray-300 transition-colors">Gallery</a>
             </div>
 
             {/* Mobile menu button */}
@@ -118,6 +119,7 @@ export default function Navbar() {
               <li><a href="/blogs" className="block py-2 hover:text-gray-300 transition-colors" onClick={() => setOpen(false)}>Blog</a></li>
               <li><a href="/team" className="block py-2 hover:text-gray-300 transition-colors" onClick={() => setOpen(false)}>Team</a></li>
               <li><a href="/contact" className="block py-2 hover:text-gray-300 transition-colors" onClick={() => setOpen(false)}>Contact</a></li>
+              <li><a href="/gallery" className="block py-2 hover:text-gray-300 transition-colors" onClick={() => setOpen(false)}>Gallery</a></li>
             </ul>
           </div>
         )}
